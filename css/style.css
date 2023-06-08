@@ -1,0 +1,231 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding: 10px 10;
+	background-color: #fff;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width:90%;
+	margin:0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 15px 0;
+	color: #bee1fc;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	border-radius: 20px;
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #bee1fc;
+}
+.active {
+	background-color: #bee1fc
+}
+.banner {
+	border: 3px solid rgb(214, 236, 247);
+	border-radius: 10px;
+	background-color: #b7d8fb;
+	height: 78vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(214, 236, 247, 0);
+}
+.banner h2,
+.banner p {
+	font-size:  40px;
+	font-family: comic sans ms;
+	 z-index: 1;
+	 padding: 1px 25px;
+}
+section {
+	padding: 30px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #000000;
+	margin-bottom: 22px
+}
+.biodatadiri {
+	background-color: #fff;
+	<img src="img/white.png" style="	float: 	left;"	width="199px">	
+	border: 20px;
+	border-radius: 10px;
+	height: 70vh;
+}
+.biodatadiri p {
+	font-weight: 900;
+	color: #000000;
+}
+.biodatadiri img {
+	margin-right: 60px;
+	margin-left: 100px;
+}
+section h4 {
+	text-align: center;
+	padding: 20px 0;
+	color: #000000;
+	margin-bottom: 22px;
+}
+.company p {
+	color: #fff;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.label {
+	margin-bottom: 20px;
+	padding-top: 30px;
+	background-color: #bee1fc;
+	color: #fff;
+}
+.label .profilpt {
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #fff;
+	background-color: #bee1fc;
+	color: #fff;
+}
+.profilpt {
+	
+	margin-bottom: 25px;
+}
+.profilpt h2 {
+	margin-bottom: 20px
+}
+.profilpt p {
+	font-family: 	monospace;	
+}
+.profilpt img {
+	margin-right: 80px;
+}
+.sejarah  {
+	background-color: #fff;
+	color: #fff;
+}
+.sejarah img {
+	margin-top: 20px;
+}
+.sejarah h2 {
+	margin-bottom: 30px;
+	color: #fff;
+	border: 25px;
+	font-size: 23px;
+	background-color:#fff;
+	margin-bottom: 3px;
+}
+.visi {
+	background-color:#fff;
+}
+.visi h1 {
+	color: #fff;
+	border: 25px;
+	font-size: 20px;
+	background-color: #fff;
+	margin-bottom: 3px;
+}
+.visi p {
+	color: #fff;
+}
+.misi {
+	background-color: #fff;
+}
+.misi h1{
+	color: #fff;
+	border: 25px;
+	font-size: 20px;
+	background-color: #fff;
+	margin-bottom: 3px;
+}
+.misi p{
+	color: #fff;
+}
+.struktur img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.kepegawaian img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.materi {
+	margin-bottom: 1px;
+}
+.terimatelp {
+	color: #fff;
+	background-color: #fff;
+}
+.terimatelp h1 {
+	color: #fff;
+	border: 25px;
+	font-size: 20px;
+	background-color: #b7d8fb;
+	margin-bottom: 3px;
+}
+.lampiran {
+	color: #fff;
+	background-color: #b7d8fb;
+}
+.lampiran h1 {
+	margin-top: 10px;
+	color: #fff;
+	border: 25px;
+	font-size: 20px;
+	background-color: #b7d8fb;
+	margin-bottom: 3px;
+}
+.lampiran p {
+	font-size: 20px;
+}
+.kesimpulan {
+	color: #fff;
+	background-color: #b7d8fb;
+}
+.kesimpulan h2 {
+	margin-top: 30px;
+	color: #fff;
+	border: 25px;
+	font-size: 20px;
+	background-color: #b7d8fb;
+	margin-bottom: 3px;
+}
+.kesimpulan p {
+	font-size: 17px; 
+	background-color: #fff;
+}
